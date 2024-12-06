@@ -1,0 +1,53 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: rem-calc(100);
+  background-color: #222222;
+
+  .title {
+    align-content: center;
+    font-size: rem-calc(32);
+    color: white;
+  }
+  .subTitle {
+    margin: rem-calc(16) auto;
+    align-content: center;
+    font-size: rem-calc(16);
+    color: #797979;
+  }
+  .formContainer {
+    margin: rem-calc(16) 0 0 0;
+    width: rem-calc(600);
+    height: rem-calc(400);
+    background-color: black;
+    padding: rem-calc(16);
+    border-radius: rem-calc(16);
+
+    label::after {
+      content: '*';
+      color: #e9c33a;
+    }
+
+    label,
+    input,
+    textarea {
+      color: $white;
+      background-color: $black;
+    }
+
+    input,
+    textarea {
+      border: 1px solid #3f3e3e;
+      border-radius: rem-calc(16);
+      margin: rem-calc(4) 0 0 0;
+    }
+
+    button {
+      color: $black;
+      background-color: #e9c33a;
+      border-radius: rem-calc(32);
+    }
+  }
+}

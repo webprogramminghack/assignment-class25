@@ -1,0 +1,17 @@
+textarea {
+  resize: none;
+  height: rem-calc(100);
+  padding: rem-calc(8);
+}
+
+label {
+  &.required::after {
+    content: '*';
+    color: #ff0000;
+    margin-left: rem-calc(2);
+  }
+}
+
+input {
+  padding: rem-calc(8);
+}
