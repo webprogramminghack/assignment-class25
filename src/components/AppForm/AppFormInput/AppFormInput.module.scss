@@ -1,0 +1,19 @@
+label {
+  text-align: left;
+  margin-bottom: rem_calc(8);
+
+  &.required::after {
+    content: '*';
+    color: #e9c339;
+    margin-left: rem-calc(4);
+  }
+}
+
+input {
+  padding: rem-calc(8);
+  background-color: #101010;
+  box-shadow: none;
+  border-radius: rem_calc(10);
+  border: 0.5px solid #373737;
+  color: #ffffff;
+}

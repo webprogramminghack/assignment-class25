@@ -1,0 +1,48 @@
+// $background-color: #1a1a1a; // Dark background color
+// $form-background: #111; // Darker background for the form
+// $input-background: #222; // Input field background color
+// $text-color: #f5f5f5; // Light text color
+// $button-background: #f5a623; // Yellow button color
+// $button-hover: #f3c64e; // Button hover color
+
+// Global styles
+body {
+  background-color: #212121;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+// Container
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: rem_calc(650);
+  padding: rem_calc(20);
+  gap: rem_calc(20);
+  margin-bottom: rem_calc(8);
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #f5f5f5;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .formContainer {
+    background-color: #101010;
+    width: rem-calc(600);
+    margin: 0 auto;
+    padding: rem-calc(24);
+    border-radius: rem_calc(20);
+    border: none;
+  }
+}
