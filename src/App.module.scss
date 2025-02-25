@@ -1,0 +1,24 @@
+.formContainer {
+  max-width: rem-calc(600);
+  margin: 0 auto;
+  padding: rem-calc(24);
+  border: 1px solid #ccc;
+  border-radius: rem-calc(8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  
+  .title {
+    font-size: rem-calc(32);
+    font-weight: 600;
+    color: white;
+  }
+
+  .subTitle {
+    margin: rem-calc(16) auto;
+    font-size: rem-calc(16);
+    color: #797979;
+  }
+}

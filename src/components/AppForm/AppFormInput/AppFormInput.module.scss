@@ -1,0 +1,12 @@
+label {
+  color: white;
+  &.required::after {
+    content: '*';
+    color: white;
+    margin-left: rem-calc(2);
+  }
+}
+
+input {
+  padding: rem-calc(8);
+}
